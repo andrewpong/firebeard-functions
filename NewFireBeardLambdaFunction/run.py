@@ -23,6 +23,22 @@
 """
 NewFireBeardLambdaFunction.run
 ~~~~~~~~~~~~
+
+Sample POST request body:
+
+    {
+        "name": "Tom Bombadil"
+    }
+
+Sample POST response:
+
+    {
+        "gender":"female",
+        "race":"dwarf",
+        "isalive":true,
+        "name":"Tom Bombadil"
+    }
+
 """
 
 import os
