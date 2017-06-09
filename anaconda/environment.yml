@@ -1,0 +1,16 @@
+name: firebeard
+dependencies:
+  - python=3.6   # or 2.7
+  - pip:
+    - autopep8          # vscode-python formatting
+    - yapf              # vscode-python formatting
+    - pylint            # vscode-python linting
+    - mypy
+    - coverage
+    - bumpversion
+    - howdoi
+    - pygments          # via howdoi
+    - pyquery           # via howdoi
+    - cssselect         # via pyquery
+    - lxml              # via pyquery
+    - requests-cache    # via howdoi
